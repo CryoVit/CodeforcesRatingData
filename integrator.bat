@@ -1,4 +1,4 @@
 @echo off
-for /l %%a in (23, 1, 23) do (
+for /l %%a in (1, 1, 100) do (
   python spider_txt.py %%a
 )
